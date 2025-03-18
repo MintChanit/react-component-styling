@@ -14,12 +14,12 @@ function Alert({ type }) {
       message: "This is warning alert box",
     },
     info: {
-      style: "bg-green-200",
+      style: "bg-yellow-100",
       icon: <box-icon name='alarm-exclamation' ></box-icon>,
       message: "This is info alert box",
     },
     success: {
-      style: "bg-yellow-100",
+      style: "bg-green-200",
       icon: <box-icon name='check-circle'></box-icon>,
       message: "This is success alert box",
     },
